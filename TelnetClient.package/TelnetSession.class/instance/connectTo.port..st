@@ -4,5 +4,5 @@ connectTo: hostName port: portNumber
 	host := hostName.
 	port := portNumber.
 	self open.
-	self defaultHandler activate.
+	self handler activate.
 	self listenLoop

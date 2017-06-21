@@ -7,8 +7,8 @@
 		"announcer",
 		"socketStream",
 		"activeHandlers",
-		"defaultHandler",
-		"protocolHandlers"
+		"protocolHandlers",
+		"handler"
 	],
 	"name" : "TelnetSession",
 	"commentStamp" : "EstebanLorenzano 6/20/2017 13:13",

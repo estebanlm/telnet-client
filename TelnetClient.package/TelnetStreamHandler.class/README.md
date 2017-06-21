@@ -1,0 +1,1 @@
+I'm a basic telnet read stream that will flush (announce data) when wauntity arrives to flushSize.

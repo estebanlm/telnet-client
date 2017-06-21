@@ -1,14 +1,15 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "TelnetDataHandler",
+	"super" : "TelnetStreamHandler",
 	"category" : "TelnetClient-Handler",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"stream",
-		"flushSize"
+		"delay",
+		"millisecondsToWait",
+		"mutex"
 	],
-	"name" : "TelnetStreamHandler",
+	"name" : "TelnetStreamThreadedHandler",
 	"type" : "normal"
 }
