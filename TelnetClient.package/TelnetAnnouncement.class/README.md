@@ -1,0 +1,1 @@
+I'm a basic announcement for Telnet.

@@ -1,0 +1,29 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "SharedPool",
+	"category" : "TelnetClient-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"AO",
+		"AYT",
+		"BRK",
+		"DM",
+		"DO",
+		"DONT",
+		"EC",
+		"EL",
+		"GA",
+		"IAC",
+		"IP",
+		"NOP",
+		"SB",
+		"SE",
+		"SGA",
+		"WILL",
+		"WONT"
+	],
+	"instvars" : [ ],
+	"name" : "TelnetConstantsRFC854",
+	"type" : "normal"
+}

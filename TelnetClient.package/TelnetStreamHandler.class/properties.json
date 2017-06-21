@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "TelnetDataHandler",
+	"category" : "TelnetClient-Handler",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"stream",
+		"flushSize"
+	],
+	"name" : "TelnetStreamHandler",
+	"type" : "normal"
+}

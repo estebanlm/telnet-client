@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TelnetDataHandler",
+	"category" : "TelnetClient-Handler",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TelnetNULLHandler",
+	"type" : "normal"
+}

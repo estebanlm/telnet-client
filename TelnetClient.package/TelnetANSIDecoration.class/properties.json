@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TelnetDataDecoration",
+	"category" : "TelnetClient-DataDecoration",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TelnetANSIDecoration",
+	"type" : "normal"
+}

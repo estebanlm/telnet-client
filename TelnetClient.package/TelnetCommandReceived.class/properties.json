@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TelnetAnnouncement",
+	"category" : "TelnetClient-Announcement",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TelnetCommandReceived",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+accessing
+flushSize
+	^ 512

@@ -1,0 +1,23 @@
+{
+	"classtraitcomposition" : "TLogueable classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"host",
+		"port",
+		"announcer",
+		"socketStream",
+		"activeHandlers",
+		"defaultHandler",
+		"protocolHandlers"
+	],
+	"name" : "TelnetSession",
+	"commentStamp" : "EstebanLorenzano 6/20/2017 13:13",
+	"super" : "Object",
+	"traitcomposition" : "TLogueable",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [
+		"TelnetConstantsRFC854"
+	],
+	"category" : "TelnetClient-Core"
+}
