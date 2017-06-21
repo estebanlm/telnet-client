@@ -4,5 +4,5 @@ startFlushLoop
 	  whileTrue: [ 
 			self mutex critical: [ self checkFlush ].
 			self wait ] ]	
-	forkAt: Processor highIOPriority 
+	forkAt: Processor lowIOPriority 
 	named: ('Telnet stream read on: {1}:{2}' format: { self session host. self session port })
