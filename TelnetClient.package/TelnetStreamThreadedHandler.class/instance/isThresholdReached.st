@@ -1,4 +1,4 @@
 testing
 isThresholdReached
-	^ self stream size > 0 
+	^ self stream isEmpty not 
 		and: [ super isThresholdReached ]
