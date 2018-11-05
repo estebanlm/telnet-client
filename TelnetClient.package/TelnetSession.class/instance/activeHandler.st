@@ -1,3 +1,0 @@
-accessing
-activeHandler
-	^ activeHandlers last

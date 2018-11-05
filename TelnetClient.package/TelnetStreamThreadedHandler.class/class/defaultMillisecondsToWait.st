@@ -1,3 +1,0 @@
-accessing
-defaultMillisecondsToWait
-	^ 100

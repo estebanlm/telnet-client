@@ -1,3 +1,0 @@
-activation
-deactivate
-	"Do nothing"

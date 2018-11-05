@@ -1,1 +1,0 @@
-I ensure a received chunk of data has ANSI commands absent or complete (otherwise parsers can fail).

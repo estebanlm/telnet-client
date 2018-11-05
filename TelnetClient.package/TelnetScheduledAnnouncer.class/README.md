@@ -1,1 +1,0 @@
-I'm an announcer that schedules all announces.

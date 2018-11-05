@@ -1,3 +1,0 @@
-testing
-isThresholdReached
-	^ self subclassResponsibility

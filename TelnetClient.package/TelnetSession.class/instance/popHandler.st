@@ -1,4 +1,0 @@
-private
-popHandler
-	activeHandlers removeLast
-	
