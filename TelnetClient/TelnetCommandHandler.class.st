@@ -5,7 +5,7 @@ I receive commands and dispatch them to their  respective protocol handlers if t
 Class {
 	#name : #TelnetCommandHandler,
 	#superclass : #TelnetHandler,
-	#category : 'TelnetClient-Handler'
+	#category : #'TelnetClient-Handler'
 }
 
 { #category : #processing }
@@ -28,7 +28,7 @@ TelnetCommandHandler >> processNext: aByte [
 	protocol := self session
 		protocolAt: protocolId
 		ifAbsent: [ ^ self rejectProtocol: protocolId command: command ].
-	((command = DO) or: [ command = WILL]) 
+	((command = DO) or: [ command = WILL ]) 
 		ifTrue: [ ^ self acceptProtocol: protocolId command: command ].
 	protocol activate.
 	protocol processNext: command.

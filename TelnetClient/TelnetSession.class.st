@@ -27,7 +27,7 @@ Class {
 	#pools : [
 		'TelnetConstantsRFC854'
 	],
-	#category : 'TelnetClient-Core'
+	#category : #'TelnetClient-Core'
 }
 
 { #category : #accessing }
@@ -116,7 +116,7 @@ TelnetSession >> listenLoop [
 	named: ('Telnet session running at: {1}:{2}' format: { self host. self port })
 ]
 
-{ #category : #'steam in' }
+{ #category : #'stream in' }
 TelnetSession >> next [ 
 	^ [ self stream next ]
 		on: ConnectionClosed 
